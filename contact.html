@@ -1,0 +1,170 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <style>
+        .contact {
+            display: flex;
+            margin-left: -40%;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span></span></h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact <span>Me</span></h2>
+            <p><sp style="font-weight: 400;"> If you have any questions or inquiries, feel free to reach out to me through the following channels:</sp</p>
+            <ul>
+                <li>Email: <span style="font-weight:700" >aravind.m2022@vitstudent.ac.in</span></li>
+                <li>Phone:<span style="font-weight:700" >+91 9487216295 </span></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aravind-m-b13b15276" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/aravind_manivannan?igsh=dTlodHg3dGVmbmFx" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.reddit.com/u/Significant-Can7843/s/7hEuP7NdFx" target="_blank"><i class="fab fa-reddit"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #030403;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 500px;
+    font-size:110%;
+    font-weight:lighter;
+    color: #040a12;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: #7d2ae8;
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+    color: #7d2ae8;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #7d2ae8;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}   
+body{
+    background-image: url(https://images.unsplash.com/photo-1565688842882-e0b2693d349a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 105%;
+    background-position-x: 70%;
+    background-position-y:-1px ;
+}
+</style>
